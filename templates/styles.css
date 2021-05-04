@@ -1,0 +1,27 @@
+html { width: 100%; height:100%; overflow:hidden; }
+
+body {
+text-align:center;
+background: #138ECE;
+background: -moz-linear-gradient(45deg, #138ECE 0%, #39A42E 71%, #62C50C 100%);
+background: -webkit-linear-gradient(45deg, #138ECE 0%, #39A42E 71%, #62C50C 100%);
+background: linear-gradient(45deg, #138ECE 0%, #39A42E 71%, #62C50C
+
+.center1 {
+    text-align: center;
+    border: 3px solid green;
+  }
+
+
+.detail {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	margin: -150px 0 0 -150px;
+	width:400px;
+	height:400px;
+}
+
+input {
+    display: inline-block;
+  }

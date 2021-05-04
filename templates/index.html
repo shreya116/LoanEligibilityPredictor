@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html >
+
+<head>
+  <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loan Eligibility Prediction</title>
+<!--    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}"-->
+<!--<link rel="stylesheet" href="css/styles.css">-->
+<!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
+</head>
+
+<body style="text-align:center;
+background: #138ECE;
+background: -moz-linear-gradient(45deg, #138ECE 0%, #39A42E 71%, #62C50C 100%);
+background: -webkit-linear-gradient(45deg, #138ECE 0%, #39A42E 71%, #62C50C 100%);
+background: linear-gradient(45deg, #138ECE 0%, #39A42E 71%, #62C50C"
+    <div class="container"style="text-align: center;">
+ <div class="detail">
+	<h1>Loan Eligibility Prediction</h1>
+     <h3> Enter the below values to check your loan eligibility</h3>
+
+    <form action="{{ url_for('predict')}}"method="post">
+            <p>Please select your gender:</p>
+            <input type="radio" id="male" name="gender" value="1"required="required">
+            <label for="male"class="radio-inline">Male</label><br>
+            <input type="radio" id="female" name="gender" value="0"required="required">
+            <label for="female"class="radio-inline">Female</label>
+    <br>
+
+    <p>Please select your marital status:</p>
+    <input type="radio" name="maritalstatus" value="1" required="required">
+    <label for="married"class="radio-inline">Married</label><br>
+    <input type="radio" style="inline" id="single" name="maritalstatus" value="0"required="required">
+    <label for="single"class="radio-inline">Single/Divorced</label>
+<br>
+
+<p>Do you have any dependents?</p>
+<input type="radio" id="dependyes" name="dependents" value="1"required="required">
+<label for="dependyes"class="radio-inline">Yes</label><br>
+<input type="radio" id="dependno" name="dependents" value="0"required="required">
+<label for="dependno"class="radio-inline">No</label>
+<br>
+
+<p>Are you a graduate?</p>
+<input type="radio" id="graduateyes" name="graduation" value="1"required="required">
+<label for="graduateyes"class="radio-inline">Yes</label><br>
+<input type="radio" id="graduateno" name="graduation" value="0"required="required">
+<label for="graduateno"class="radio-inline">No</label>
+<br>
+
+<p>Are you Self-Employed?</p>
+<input type="radio" id="seyes" name="selfemployed" value="1"required="required">
+<label for="seyes"class="radio-inline">Yes</label><br>
+<input type="radio" id="seno" name="selfemployed" value="0"required="required">
+<label for="seno"class="radio-inline">No</label>
+<br>
+
+<p>What is your property area?</p>
+<input type="radio" id="propertyarear" name="propertyarea" value="1"required="required">
+<label for="propertyareau"class="radio-inline">Urban/Semi-Urban<br>
+<input type="radio" id="propertyareau" name="propertyarea" value="0"required="required">
+<label for="propertyarear"class="radio-inline">Rural</label>
+<br>
+
+
+<p>Please enter applicant's income: </p>
+<input type="text" id="aincome" name="applicantincome" size="40"required="required">
+<label for="aincome"><br>
+<br>
+
+<p>Please enter co-applicant's income: </p>
+<input type="text" id="caincome" name="coapplicantincome" size="40"required="required">
+<label for="caincome"><br>
+<br>
+
+
+<p>Please enter loan amount: </p>
+<input type="text" id="loanamount" name="loanamount" size="40"required="required">
+<label for="loanamount"><br>
+<br>
+
+<p>Please enter amount term in days: </p>
+<input type="text" id="term" name="term" size="40"required="required">
+<label for="term"><br>
+<br>
+
+<p>Enter credit score </p>
+<input type="text" id="score" name="score" size="40"required="required">
+<label for="score"><br>
+<br>
+
+
+        <button type="submit" class="btn">Predict</button>
+        <button type="reset" class="btn">Reset</button>
+    </form>
+
+   <br>
+   <br>
+<p style="color:red;font-weight:bold;background-color:powderblue">{{prediction_text}}</p>
+</div>
+</body>
+</html>

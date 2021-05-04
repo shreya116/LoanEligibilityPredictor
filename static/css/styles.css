@@ -1,0 +1,24 @@
+
+body {
+text-align:center;
+background: #138ECE;
+background: -moz-linear-gradient(45deg, #138ECE 0%, #39A42E 71%, #62C50C 100%);
+background: -webkit-linear-gradient(45deg, #138ECE 0%, #39A42E 71%, #62C50C 100%);
+background: linear-gradient(45deg, #138ECE 0%, #39A42E 71%, #62C50C
+}
+
+.center1 {
+    text-align: center;
+    border: 3px solid green;
+  }
+
+
+.result{
+    color:  red;
+	font-weight: bold;
+
+}
+
+input {
+    display: inline-block;
+  }
