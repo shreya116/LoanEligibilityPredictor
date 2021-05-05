@@ -37,4 +37,4 @@
 #### 4. Visit the Heroku App in your Web Browser
 > In my case the url is : https://loaneligibilitypredict.herokuapp.com
 
-#### Congratulations! You just deployed your first app on Heroku! :blush: :heart_eyes:
+#### Congratulations! You just deployed your app on Heroku! :blush: :heart_eyes:
