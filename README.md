@@ -4,7 +4,7 @@
 
 ### Deployment on Heroku
 
-###Requirement:
+### Requirement:
 
 - ###### Github Account
 - ###### Heroku Account (if you dont have one, sign up now: https://signup.heroku.com)
@@ -13,13 +13,17 @@
 
 
 #### 1. Fork this repository on GitHub!
-
+<img width="1785" alt="Screen Shot 2021-05-04 at 7 57 18 PM" src="https://user-images.githubusercontent.com/18660427/117087784-236a8000-ad16-11eb-83ff-b4363a405ef2.png">
 
 #### 2. Login to your Heroku account and create new app!
+<img width="809" alt="Screen Shot 2021-05-04 at 8 02 32 PM" src="https://user-images.githubusercontent.com/18660427/117087794-2ebdab80-ad16-11eb-892c-d16bbb5908cd.png">
 
 > Note: All Heroku app names are unique
 
 #### 3. Use Heroku (Web) UI to Deploy the Application
+
+<img width="1029" alt="Screen Shot 2021-05-04 at 8 07 16 PM" src="https://user-images.githubusercontent.com/18660427/117087813-38dfaa00-ad16-11eb-81cf-e05d381c3164.png">
+
 > Once you create your app with an unique name in Heroku you will be shown the "Deploy" screen:
 
 ###### Steps:
