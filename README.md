@@ -21,10 +21,11 @@
 > Note: All Heroku app names are unique
 
 #### 3. Use Heroku (Web) UI to Deploy the Application
+> Once you create your app with an unique name in Heroku you will be shown the "Deploy" screen:
 
 <img width="1029" alt="Screen Shot 2021-05-04 at 8 07 16 PM" src="https://user-images.githubusercontent.com/18660427/117087813-38dfaa00-ad16-11eb-81cf-e05d381c3164.png">
 
-> Once you create your app with an unique name in Heroku you will be shown the "Deploy" screen:
+
 
 ###### Steps:
 1. Click on the "Connect to GitHub" option,
